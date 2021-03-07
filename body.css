@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.developper {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.developper-title {
+  position: absolute;
+  width: 300px;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.developper-title > p {
+  text-shadow: 0px 0px 9px rgb(240, 234, 234);
+  color: rgb(243, 243, 243);
+}
+
+
+
+
+
+
+

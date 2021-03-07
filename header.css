@@ -1,0 +1,26 @@
+.titre {
+ display: flex;
+ justify-content: space-between; 
+ align-items: center;
+ 
+}
+
+h1 {
+  font-size: 15px;
+  font-family: cursive;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.navbar {
+  margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
