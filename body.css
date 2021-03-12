@@ -4,6 +4,7 @@
 
 body {
   height: 100vh;
+  background-color: lightgray;
 }
 
 .img-fluid {
@@ -25,10 +26,40 @@ body {
 }
 
 .developper-title > p {
-  text-shadow: 0px 0px 9px rgb(240, 234, 234);
+  text-shadow: 0px 0px 9px rgb(253, 246, 246);
   color: rgb(243, 243, 243);
 }
 
+.profilImage {
+  width: 100px;
+  height: 100px;
+  border: 3px solid rgb(245, 235, 235);
+  border-radius: 50px;
+  background-image: url(image/coala.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.propos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbarPropos > ul {
+  list-style: none;
+
+}
+
+h2 {
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: bold;
+  
+}
 
 
 
